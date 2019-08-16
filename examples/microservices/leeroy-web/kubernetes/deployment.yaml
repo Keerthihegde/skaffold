@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: leeroy-web
-          image: REPOHERE/leeroy-web
+          image: kubernetesdeployment.azurecr.io/pipelines/leeroy-web
           ports:
             - containerPort: 8080
